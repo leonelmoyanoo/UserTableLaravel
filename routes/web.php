@@ -23,5 +23,5 @@ Route::post('users', [UserController::class, 'store'])
     ->name('users.store');
 
 /* DELETE */
-Route::delete('users/{user}', [UserController::class, 'eliminar'])
+Route::delete('users/{user}', [UserController::class, 'destroy'])
     ->name('users.destroy');
